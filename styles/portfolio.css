@@ -206,3 +206,31 @@ line-height: 28px;
     text-align: center;
     margin-top: 50px;
 }
+
+/* footer */
+footer{
+    display: flex;
+    gap: 117px;
+    background: #FFF8F3;
+    margin: 100px;
+    padding: 130px 230px;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+.contact input,textarea{
+    display: block;
+    margin-bottom: 24px;
+    color: var(--Dark-03, #757575);
+padding: 18px 35px;
+font-size: 16px;
+border: 0;
+font-weight: 400;
+line-height: 28px; 
+border-radius: 5px;
+background: var(--White-Color, #FFF);
+width: 100%;
+}
+
